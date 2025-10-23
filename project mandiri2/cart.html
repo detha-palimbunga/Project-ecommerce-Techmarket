@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Keranjang - TechMarket</title>
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+  <header class="py-3 bg-primary text-white">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="text-white text-decoration-none h4 mb-0">TechMarket</a>
+      <a href="product.html" class="btn btn-outline-light btn-sm">Kembali Belanja</a>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <h2 class="mb-4">Keranjang Belanja</h2>
+
+    <div id="cart-wrapper" class="mb-4">
+    </div>
+
+    <div class="d-flex gap-2">
+      <button id="clear-cart" class="btn btn-danger">Kosongkan Keranjang</button>
+      <button id="checkout" class="btn btn-success ms-auto">Checkout</button>
+    </div>
+    <div id="msg" class="mt-4" aria-live="polite"></div>
+  </main>
+
+  <script src="script_2.js"></script>
+</body>
+
+</html>

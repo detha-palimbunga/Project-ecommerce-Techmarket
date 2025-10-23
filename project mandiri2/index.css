@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: #004aad;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #004aad;
+}
+
+#navbar li a.active ::after {
+    content: "";
+    background: #004aad;
+    position: absolute;
+}
+
+#hero {
+    background-image: url('hero.png');
+    background-size: cover;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 90vh;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #004aad;
+}
+
+#hero button {
+    background-image: url(button.png);
+    background-color: transparent;
+    color: #004aad;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    font-weight: 900;
+
+}
+
+#feature .box {
+    text-align: center;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#feature h2 {
+    color: #004aad;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#feature .fe-box {
+    width: 280px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#feature h6 {
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+
+.fe-box img {
+    width: 230px;
+    border-radius: 10px;
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #004aad;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#product1 .des {
+    text-align: left;
+    padding: 10px 0;
+}
+
+#product1 .des span {
+    font-size: 14px;
+    color: #888;
+}
+
+#product1 .des h5 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.logo {
+    width: 100px;
+    margin: 10px 0 0 20px;
+}
+
+.logo2 {
+    width: 100px;
+}
+
+.cart {
+    width: 40px;
+    height: 40px;
+    margin: 15px 20px 0 0;
+}
+
+.col-4 h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.col-4 ul {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.col-4 li {
+    list-style: none;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.col-4 li a {
+    text-decoration: none;
+    color: #f8f8f8a1;
+}
+
+.col-4 li a:hover {
+    color: #4495ff;
+}
+
+.col-2 h4 {
+    font-weight: 600;
+}
+
+.col-2 a {
+    text-decoration: none;
+    color: #f8f8f8a1;
+}
+
+.col-2 a:hover {
+    color: #4495ff;
+}
+
+.col-2 p {
+    color: #f8f8f8a1;
+}
+
+.sosmed {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    width: 30px;
+}
+
+.footer a {
+    color: #f4f3f3;
+}

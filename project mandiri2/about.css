@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: #004aad;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #004aad;
+}
+
+#navbar li a.active ::after {
+    content: "";
+    background: #004aad;
+    position: absolute;
+}
+
+#hero {
+    background-image: url('orang.jpg');
+    background-size: cover;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 70vh;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+    color: #ffffffe6;
+    font-weight: 500;
+    margin-top: 230px;
+
+}
+
+#hero h1 {
+    color: #004badd3;
+    font-weight: 800;
+}
+#hero h2 {
+    color: #004bade0;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#feature .box {
+    text-align: center;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#feature h2 {
+    color: #004aad;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#feature .fe-box {
+    width: 280px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#feature h6 {
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+
+.fe-box img {
+    width: 230px;
+    border-radius: 10px;
+}
+
+.about-section {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.06);
+}
+
+.about-inner {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+.about-image img {
+    width: 320px;
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.about-content h2 {
+    margin-top: 0;
+    color: #0b3a66;
+    font-weight: 700;
+}
+
+.about-content .lead {
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.about-features {
+    padding-left: 18px;
+    margin: 12px 0;
+    color: #333;
+}
+
+.about-features li {
+    margin-bottom: 8px;
+}
+
+.about-mission {
+    margin-top: 8px;
+    color: #555;
+}
+
+.about-cta .btn {
+    padding: 8px 16px;
+    font-weight: 600;
+}
+
+.about-inner {
+    flex-wrap: wrap;
+}
+
+.about-image img {
+    max-width: 100%;
+    width: 320px;
+}
+
+.about-image {
+    flex: 0 0 auto;
+}
+
+.about-content {
+    flex: 1 1 320px;
+}
+
+.logo {
+    width: 100px;
+    margin: 10px 0 0 20px;
+}
+
+.logo2 {
+    width: 100px;
+}
+
+.cart {
+    width: 40px;
+    height: 40px;
+    margin: 15px 20px 0 0;
+}
+
+.col-4 h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.col-4 ul {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.col-4 li {
+    list-style: none;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.col-4 li a {
+    text-decoration: none;
+    color: #f8f8f8a1;
+}
+
+.col-4 li a:hover {
+    color: #4495ff;
+}
+
+.col-2 h4 {
+    font-weight: 600;
+}
+
+.col-2 a {
+    text-decoration: none;
+    color: #f8f8f8a1;
+}
+
+.col-2 a:hover {
+    color: #4495ff;
+}
+
+.col-2 p {
+    color: #f8f8f8a1;
+}
+
+.sosmed {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    width: 30px;
+}
+
+.footer a {
+    color: #f4f3f3;
+}

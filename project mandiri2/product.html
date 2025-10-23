@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMarket</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href=""><img src="logo.png" class="logo" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><img src="cart.png" alt="cart" class="cart"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h2>Upgrade your tech, upgrade your life</h2>
+        <h1>Trade smarter, live better</h1>
+        <p>Innovation within your reach</p>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>All Products</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="foto produk/hp1.png" alt="">
+                <div class="des">
+                    <span>Smartphone</span>
+                    <h5>Iphone 17 pro</h5>
+                    <h4>Rp.17.249.000,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/keyboard1.png" alt="">
+                <div class="des">
+                    <span>Keyboard</span>
+                    <h5>Aula F75 pro</h5>
+                    <h4>Rp.600.000,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/headphone1.png" alt="">
+                <div class="des">
+                    <span>Headphone</span>
+                    <h5>SONY WH-ULT900N</h5>
+                    <h4>Rp.2.249.000,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/laptop2.png" alt="">
+                <div class="des">
+                    <span>Laptop</span>
+                    <h5>Legion 5 pro</h5>
+                    <h4>Rp.25.129.000,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/smartwatch1.png" alt="">
+                <div class="des">
+                    <span>Smartwatch</span>
+                    <h5>Huawei GT5</h5>
+                    <h4>Rp.50.213.000,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/hp2.png" alt="">
+                <div class="des">
+                    <span>Smartphone</span>
+                    <h5>SAMSUNG S25 Ultra</h5>
+                    <h4>Rp.24.999.000,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/keyboard2.png" alt="">
+                <div class="des">
+                    <span>Keyboard</span>
+                    <h5>WOBKEY Rainy 75</h5>
+                    <h4>Rp.1.599.999,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/laptop1.png" alt="">
+                <div class="des">
+                    <span>Laptop</span>
+                    <h5>ASUS ROG Zephyrus G14</h5>
+                    <h4>Rp.22.999.999,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/smartwatch2.png" alt="">
+                <div class="des">
+                    <span>Smartwatch</span>
+                    <h5>Apple Watch Ultra 2</h5>
+                    <h4>Rp.4.889.000,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/keyboard3.png" alt="">
+                <div class="des">
+                    <span>Keyboard</span>
+                    <h5>Neo75 Cu</h5>
+                    <h4>Rp.3.699.000,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/headphone2.png" alt="">
+                <div class="des">
+                    <span>Headphone</span>
+                    <h5>Sennheiser</h5>
+                    <h4>Rp.3.499.000,00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="foto produk/laptop3.png" alt="">
+                <div class="des">
+                    <span>Laptop</span>
+                    <h5>MSI Titan GT77</h5>
+                    <h4>Rp.89.999.000,00</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-detail" class="product-detail" hidden>
+        <div class="pd-backdrop" id="pd-backdrop"></div>
+        <div class="pd-card" role="dialog" aria-modal="true" aria-hidden="true" id="pd-card">
+            <button class="pd-close" id="pd-close" aria-label="Tutup">&times;</button>
+            <div class="pd-grid">
+                <img id="pd-img" src="" alt="product image">
+                <div class="pd-info">
+                    <h3 id="pd-title">Product Title</h3>
+                    <p class="pd-cat" id="pd-cat">Category</p>
+                    <p class="pd-price" id="pd-price">Rp.0</p>
+                    <p id="pd-desc">Deskripsi produk akan muncul di sini.</p>
+                    <div class="pd-actions">
+                        <button id="pd-add" class="btn btn-primary">Tambah ke Keranjang</button>
+                        <button id="pd-close-2" class="btn btn-outline-secondary">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div style="background-color: #004aad; padding-top: 20px;padding-bottom: 20px;">
+        <div class="container-fluid text-center text-light" style="padding: 30px; background-color: #143057;">
+            <div class="row" style="text-align: left;">
+                <div class="col-1">
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="logo2.png" class="logo2" alt="logo"></a>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://maps.app.goo.gl/v9nvorBiaMyaVYze6"><b>Address:</b>Срещу
+                                „ФинТехМаш,Southern Industrial ZoneYuzhenYuzhen, 4004 Plovdiv, Bulgaria</a></li>
+                        <li><a href="#"><b>Phone:</b>+62 822 5573 7349</a></li>
+                        <li><a href="#"><b>Hour:</b>10.00am-08.00pm</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 ">
+                    <h4>About</h4>
+                    <a href="#" style="text-decoration: none;"><small>About Us</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Delivery Information</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Privacy Policy</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Terms & Conditions</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Contact Us</small></a> <br>
+                </div>
+                <div class="col-2">
+                    <h6>My Account</h6>
+                    <a href="#" style="text-decoration: none;"><small>Sign In</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>View Cart</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>My Wishlist</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Track My Order</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Help</small></a> <br>
+                </div>
+                <div class="col-2">
+                    <h6>Instal App</h6>
+                    <p><small> From App Store or Google PLay store</small></p>
+                    <a href=""><img src="googleplay.png" class="logo2" alt="logo"></a>
+                    <a href=""><img src="appstore.png" class="logo2" alt="logo"></a>
+                    <p><small>Follow Us</small></p>
+                    <div class="sosmed">
+                        <a href="https://www.instagram.com/dtthhaaaa_?igsh=bms0cm5vazh6dWZx"><img src="1.png"
+                                class="icon" alt="logo"></a>
+                        <a href=""><img src="2.png" class="icon" alt="logo"></a>
+                        <a href="https://www.youtube.com/@dtha_palimbunga"><img src="3.png" class="icon" alt="logo"></a>
+                        <a href=""><img src="4.png" class="icon" alt="logo"></a>
+                    </div>
+
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+        </div>
+        <div class="footer text-center" style="padding-top:20px ;">
+            <a href="#" style="text-decoration: none;"><small>Copyright © 2025 Tech Market. All Rights
+                    Reserved</small></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+</body>
+
+</htm

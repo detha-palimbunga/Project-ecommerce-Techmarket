@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMarket</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href=""><img src="logo.png" class="logo" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><img src="cart.png" alt="cart" class="cart"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="leave-message" class="leave-section">
+        <div class="leave-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; gap:18px; flex-wrap:wrap;">
+                <h3>Leave a Message</h3>
+                <p style="margin:0; color:#556a77;">Isi form di kanan untuk mengirim pesan kepada kami. Kami akan
+                    merespon secepatnya.</p>
+            </div>
+
+            <div class="leave-grid" style="margin-top:18px;">
+                <div style="padding-right:6px;">
+                    <p style="margin:0 0 10px 0;"><strong>Contact Info</strong></p>
+                    <p style="margin:6px 0;"><strong>Address:</strong> Southern Industrial Zone, Plovdiv, Bulgaria</p>
+                    <p style="margin:6px 0;"><strong>Phone:</strong> +62 822 5573 7349</p>
+                    <p style="margin:6px 0;"><strong>Email:</strong> dethapalimbunga@gmail.com</p>
+                    <p style="margin:8px 0 0 0; color:#667885;">Anda juga bisa menghubungi melalui sosial media kami.
+                    </p>
+                </div>
+
+                <aside style="padding-left:6px;">
+                    <form id="contactForm" novalidate>
+                        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+                            <div>
+                                <label for="name" style="font-size:0.92rem; color:#334e5e;">Nama</label>
+                                <input id="name" class="form-control" type="text" placeholder="Nama lengkap" required>
+                            </div>
+                            <div>
+                                <label for="email" style="font-size:0.92rem; color:#334e5e;">Email</label>
+                                <input id="email" class="form-control" type="email" placeholder="email@domain.com"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div style="margin-top:10px;">
+                            <label for="subject" style="font-size:0.92rem; color:#334e5e;">Subjek</label>
+                            <input id="subject" class="form-control" type="text" placeholder="Judul pesan" required>
+                        </div>
+
+                        <div style="margin-top:10px;">
+                            <label for="message" style="font-size:0.92rem; color:#334e5e;">Pesan</label>
+                            <textarea id="message" class="form-control" rows="6" placeholder="Tulis pesan Anda..."
+                                required></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-primary">Kirim Pesan</button>
+                            <button type="reset" class="btn-ghost" type="reset">Reset</button>
+                            <div id="contactStatus" class="status" aria-live="polite"></div>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <div style="background-color: #004aad; padding-top: 20px;padding-bottom: 20px;">
+        <div class="container-fluid text-center text-light" style="padding: 30px; background-color: #143057;">
+            <div class="row" style="text-align: left;">
+                <div class="col-1">
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="logo2.png" class="logo2" alt="logo"></a>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://maps.app.goo.gl/v9nvorBiaMyaVYze6"><b>Address:</b>Срещу
+                                „ФинТехМаш,Southern Industrial ZoneYuzhenYuzhen, 4004 Plovdiv, Bulgaria</a></li>
+                        <li><a href="#"><b>Phone:</b>+62 822 5573 7349</a></li>
+                        <li><a href="#"><b>Hour:</b>10.00am-08.00pm</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 ">
+                    <h4>About</h4>
+                    <a href="#" style="text-decoration: none;"><small>About Us</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Delivery Information</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Privacy Policy</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Terms & Conditions</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Contact Us</small></a> <br>
+                </div>
+                <div class="col-2">
+                    <h6>My Account</h6>
+                    <a href="#" style="text-decoration: none;"><small>Sign In</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>View Cart</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>My Wishlist</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Track My Order</small></a> <br>
+                    <a href="#" style="text-decoration: none;"><small>Help</small></a> <br>
+                </div>
+                <div class="col-2">
+                    <h6>Instal App</h6>
+                    <p><small> From App Store or Google PLay store</small></p>
+                    <a href=""><img src="googleplay.png" class="logo2" alt="logo"></a>
+                    <a href=""><img src="appstore.png" class="logo2" alt="logo"></a>
+                    <p><small>Follow Us</small></p>
+                    <div class="sosmed">
+                        <a href="https://www.instagram.com/dtthhaaaa_?igsh=bms0cm5vazh6dWZx"><img src="1.png"
+                                class="icon" alt="logo"></a>
+                        <a href=""><img src="2.png" class="icon" alt="logo"></a>
+                        <a href="https://www.youtube.com/@dtha_palimbunga"><img src="3.png" class="icon" alt="logo"></a>
+                        <a href=""><img src="4.png" class="icon" alt="logo"></a>
+                    </div>
+
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+        </div>
+        <div class="footer text-center" style="padding-top:20px ;">
+            <a href="#" style="text-decoration: none;"><small>Copyright © 2025 Tech Market. All Rights
+                    Reserved</small></a>
+        </div>
+    </div>
+    <script src="script_3.js"></script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+</body>
+
+</html
